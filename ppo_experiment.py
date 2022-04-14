@@ -3,6 +3,9 @@ import os
 from datetime import datetime as dt
 
 import gym
+
+
+
 from stable_baselines import PPO2
 from stable_baselines.common.policies import MlpPolicy
 from stable_baselines.common.vec_env import SubprocVecEnv
@@ -19,7 +22,7 @@ parser.add_argument('--n_steps',
                     help="Number of steps for PPO to roll out",
                     type=int)
 parser.add_argument('--tensorboard_log',
-                    default="./tensorboard",
+                    default="./tensorboard/",
                     help="Logging directory for TensorBoard log",
                     type=str)
 parser.add_argument('--save_model',

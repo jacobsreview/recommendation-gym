@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: recommendation-gym
+Version: 1.3
+Summary: POMDP recommendation system framework for MovieLens data set
+Home-page: https://github.com/sadighian/recommendation-gym
+Author: Jonathan Sadighian
+Author-email: jonathan.m.sadighian@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
