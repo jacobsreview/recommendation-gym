@@ -5,7 +5,9 @@ from typing import Dict, List, Tuple
 
 import pandas as pd
 import requests
-from stable_baselines.common.base_class import ActorCriticRLModel
+# from stable_baselines3.common.base_class import ActorCriticRLModel
+from stable_baselines3 import A2C as ActorCriticRLModel
+from stable_baselines3.common.env_util import make_vec_env
 
 from . import RecoEnv
 
